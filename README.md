@@ -1,5 +1,8 @@
 # Exhale 🟠
 
+<img width="1512" height="862" alt="image" src="https://github.com/user-attachments/assets/5dd2d485-7b77-443d-9726-e01f679cfe2a" />
+
+
 **We make the call you've been dreading.**
 
 > Snap a photo of a confusing bill. Say what's wrong. Exhale reads the document,
@@ -55,6 +58,7 @@ three sponsor platforms, each doing real, load-bearing work in a single flow.
                           ▼
                        INSFORGE updated with transcript + summary ──► UI shows "Resolved"
 ```
+<img width="557" height="167" alt="image" src="https://github.com/user-attachments/assets/8c4857b5-5574-4f68-89c0-99118663adee" />
 
 ---
 
@@ -123,8 +127,9 @@ manual dashboard setup.
 
 > Code: [`lib/vapi.js`](lib/vapi.js)
 
-<!-- SCREENSHOT: Vapi dashboard — Logs tab showing a real call with transcript -->
-<!-- ![Vapi call log](docs/vapi.png) -->
+<img width="1512" height="907" alt="image" src="https://github.com/user-attachments/assets/a853bf5a-38b7-423b-ba02-96e9ceacdeca" />
+
+
 
 ---
 
@@ -164,8 +169,7 @@ PostgREST records endpoint (`/api/database/records/cases`).
 | `created_at`   | timestamp   | auto (Insforge)                                  |
 | `updated_at`   | timestamp   | auto (Insforge)                                  |
 
-<!-- SCREENSHOT: Insforge dashboard — the `cases` table with stored rows -->
-<!-- ![Insforge cases table](docs/insforge.png) -->
+<img width="1512" height="909" alt="image" src="https://github.com/user-attachments/assets/f5a1a12a-6fe9-4eba-89eb-47c78cb40923" />
 
 ---
 
