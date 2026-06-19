@@ -1,16 +1,10 @@
 # Exhale 🟠
 
+**We make the call you've been dreading.**
+
 <img width="1512" height="862" alt="image" src="https://github.com/user-attachments/assets/5dd2d485-7b77-443d-9726-e01f679cfe2a" />
 
 
-**We make the call you've been dreading.**
-
-> Snap a photo of a confusing bill. Say what's wrong. Exhale reads the document,
-> plans the call, dials the company, navigates the phone menu, talks to the rep
-> **as you**, and hands back the outcome — with the transcript saved.
-
-<!-- SCREENSHOT: app home / a completed "Resolved" run -->
-<!-- ![Exhale app](docs/app.png) -->
 
 A voice-AI agent for the bureaucratic phone calls everyone avoids — disputing a
 medical bill, canceling a subscription that won't let you leave, fighting a
@@ -98,9 +92,6 @@ JSON object that contains *everything* the rest of the pipeline needs:
 
 > Code: [`lib/nebius.js`](lib/nebius.js)
 
-<!-- SCREENSHOT: Nebius dashboard — model usage / token consumption proving real calls -->
-<!-- ![Nebius usage](docs/nebius.png) -->
-
 ---
 
 ## 🔵 Vapi — the voice
@@ -183,8 +174,6 @@ The engine is generic — these are all live with the same code:
 4. **Fight a parking ticket** — reference the citation, contest or extend.
 5. **Waive a late / overdraft fee** — ask for the one-time courtesy waiver.
 
-Sample documents for each live in [`samples/`](samples/).
-
 ---
 
 ## Run it
@@ -242,6 +231,3 @@ Exhale/
 ```
 
 ---
-
-*Built in one day for the Midsummer Multimodal AI Hackathon. Sample documents are
-synthetic — no real personal data.*
