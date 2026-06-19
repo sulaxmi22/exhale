@@ -1,0 +1,11 @@
+import "dotenv/config";
+import fs from "fs";
+import { analyzeCase } from "./lib/nebius.js";
+const b64 = "data:image/png;base64," + fs.readFileSync("sample_bill.png").toString("base64");
+const a = await analyzeCase("This $340 charge should have gone through my insurance. Please get it reviewed.", b64, {});
+console.log("patient_name :", a.patient_name);
+console.log("account_number:", a.account_number);
+console.log("claim_number :", a.claim_number);
+console.log("amount       :", a.amount);
+console.log("provider     :", a.provider);
+console.log("call_script  :", a.call_script);

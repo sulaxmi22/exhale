@@ -1,0 +1,12 @@
+import { analyzeCase } from "./lib/nebius.js";
+import { placeCall } from "./lib/vapi.js";
+import { createCase, updateCase, getCase } from "./lib/insforge.js";
+const a = await analyzeCase("charged $340", null);
+console.log("1. analyzeCase mock:", a._mock === true, "| issue:", !!a.issue_summary);
+const call = await placeCall(a, "+18005551234", "case_x");
+console.log("2. placeCall mock (no real dial):", call.mock === true, "| id:", call.id);
+const k = await createCase({ problem: "p", analysis: a, status: "calling" });
+await updateCase(k.id, { status: "resolved", summary: "done" });
+const final = await getCase(k.id);
+console.log("3. case store resolve:", final.status === "resolved");
+console.log((a._mock && call.mock && final.status==="resolved") ? "ALL GOOD - runs with zero keys" : "FAIL");
