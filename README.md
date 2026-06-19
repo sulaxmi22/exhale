@@ -43,6 +43,8 @@ test each independently.
 ---
 
 ## How it works
+<img width="537" height="166" alt="image" src="https://github.com/user-attachments/assets/0f87799f-fc3e-40cb-bff3-5e2a677afca3" />
+
 
 ```
   Browser (photo + problem)
