@@ -205,10 +205,6 @@ Exhale running on http://localhost:3000
 | `INSFORGE_BASE_URL` / `INSFORGE_API_KEY` | insforge.dev | case storage (optional — falls back to in-memory) |
 | `DEMO_TARGET_NUMBER` | — | the number to dial during demos |
 
-> No webhook/ngrok required — the server polls Vapi for results.
-> **Mock mode:** with no keys set, every service is safely mocked so you can run
-> the full flow offline for rehearsal.
-
 
 
 ## Project structure
