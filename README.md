@@ -2,6 +2,9 @@
 
 **We make the call you've been dreading.**
 
+<img width="1512" height="827" alt="image" src="https://github.com/user-attachments/assets/01e962a5-acb6-4167-bbb9-94fe97a32301" />
+
+
 A voice AI agent that takes the bureaucratic phone calls everyone avoids —
 disputing a medical bill, canceling a subscription that won't let you, fighting
 a charge, chasing an insurance claim. You describe the problem and snap a photo
