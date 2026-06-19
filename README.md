@@ -52,8 +52,6 @@ three sponsor platforms, each doing real, load-bearing work in a single flow.
                           ▼
                        INSFORGE updated with transcript + summary ──► UI shows "Resolved"
 ```
-<img width="557" height="167" alt="image" src="https://github.com/user-attachments/assets/8c4857b5-5574-4f68-89c0-99118663adee" />
-
 ---
 
 ## 🟢 Nebius — the eyes and the brain
@@ -187,6 +185,8 @@ npm start                # http://localhost:3000
 On startup the server prints which mode each service is in, so you always know
 it's using real APIs:
 
+<img width="557" height="167" alt="image" src="https://github.com/user-attachments/assets/8c4857b5-5574-4f68-89c0-99118663adee" />
+
 ```
 Exhale running on http://localhost:3000
   Nebius:   REAL (reads uploaded image)
@@ -209,12 +209,7 @@ Exhale running on http://localhost:3000
 > **Mock mode:** with no keys set, every service is safely mocked so you can run
 > the full flow offline for rehearsal.
 
-### Optional: public demo safeguards
 
-Set `PUBLIC_DEMO=1` to lock every call to `DEMO_TARGET_NUMBER` and rate-limit per
-IP — safe to expose at a booth without anyone draining your call credits.
-
----
 
 ## Project structure
 
