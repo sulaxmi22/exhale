@@ -16,7 +16,7 @@ three sponsor tracks with one demo:
 
 ---
 
-## ▶️ Run it RIGHT NOW with no keys (mock mode)
+## Run it RIGHT NOW with no keys (mock mode)
 
 You don't need any API keys to see the full flow. If a key is missing, that
 service is automatically mocked: Nebius returns a sample bill analysis, Vapi
@@ -62,12 +62,12 @@ test each independently.
 ## Setup (≈10 min)
 
 ```bash
-cd sherpa
+cd exhale
 npm install
 cp .env.example .env      # fill in keys (see below)
 ```
 
-Get keys at the event:
+Get keys:
 - **Nebius** → https://studio.nebius.ai ($100 credit). Put key in `NEBIUS_API_KEY`. Pick a vision model from their list and set `NEBIUS_VISION_MODEL`.
 - **Vapi** → https://dashboard.vapi.ai ($50 credit). Get an API key + buy/import a phone number, then set `VAPI_API_KEY` and `VAPI_PHONE_NUMBER_ID`.
 - **Insforge** → https://insforge.dev ($25 credit). Set `INSFORGE_BASE_URL` + `INSFORGE_API_KEY`. **Or leave blank to run in-memory** while you get the call flow working.
@@ -100,5 +100,3 @@ npm start          # http://localhost:3000
 | created_at    | timestamp |
 
 ---
-
-# Exhale 🟠
